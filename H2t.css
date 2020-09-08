@@ -7,10 +7,6 @@
 --Idle: rgb(0 99 156);
 --Unavailable: rgb(228 15 0);
 --Offline: rgb(90 95 100);
---Playing: url("https://goldenlys.github.io/ThemeGen/img/playing.jpg");
---Xbox: url("https://goldenlys.github.io/ThemeGen/img/xbox.jpg");
---Spotify: url("https://goldenlys.github.io/ThemeGen/img/spotify.jpg");
---Streaming: url("https://goldenlys.github.io/ThemeGen/img/twitch.jpg");
 --grey: rgb(77 70 85);
 --darkgrey: rgb(18 18 18);
 --ChatBox: var(--darkgrey5);
@@ -20,12 +16,12 @@
 --HoverMessage: var(--darkgrey5);
 --JoinUs: "H2y Rooting .";
 --AddNewServer: "➕ Add a new server";
---Close: "";
---Resize: "";
---Hide: "";
+--Options: "⚙️";
+--Close: "🔴";
+--Resize: "🔵";
+--Hide: "⚫";
 --ProfilePic: "H2tRh'aLRuqi";
 --Unread: "🔴";
---Options: "";
 --Emoji: "✌️";
 --EmojiHover: "🖕";
 --Channel: "💬";
@@ -40,12 +36,12 @@
 --C3: rgb(159 150 83);
 --C4: rgb(181 126 193);
 --FoldersOpen: "❌";
---Micro: "";
---Headset: "";
+--Micro: "🎙️";
+--Headset: "🎧";
 --TitleBG: var(--darkgrey5);
 --ServerSize: 45px;
 --WriteMessage: "Write a message . . .";
---ListenAlong: "";
+--ListenAlong: "Listen Along";
 --StreamingColor: rgb(78 0 180);
 --ServerColumns: 1;
 --Highlighted: var(--grey5);
@@ -53,7 +49,7 @@
 --Announcement: "📣";
 --grey5: rgb(77 70 85 / 50%);
 --darkgrey5: rgb(18 18 18 / 75%);
-}
+} }
 
 .theme-light, .theme-dark {
 	--header-primary: white;
