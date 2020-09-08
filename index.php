@@ -1,3 +1,4 @@
+
 <html>
 <head>
 <link rel="stylesheet" href="s.css">
@@ -9,7 +10,7 @@ function check(form)
 
 if(form.userid.value == "Roseindia" && form.pwd.value == "Roseindia")
 {
-	alert("login")
+	alert("Ok Pitch , Your login :$")
 	return true;
 }
 else
@@ -28,8 +29,7 @@ else
 
     	<input type="text" name="userid" value="" placeholder="User Name" />
         <input type="password" name="pwd" placeholder="Password" required="required" />
-		<input type="password" name="x" placeholder="xCode" required="required" onClick="H2tRh" />
-        <button type="submit" onclick="return check(this.form)" class="btn btn-primary btn-block btn-large">Login</button>
+        <button type="submit"  onclick="check(this.form)" class="btn btn-primary btn-block btn-large">Login</button>
 		
     </form>
 </div>
