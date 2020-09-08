@@ -530,8 +530,8 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 	position: fixed;
 	right: 0;
 	height: calc(100vh - 60px);
-	top: 60px;
-	width: calc(100vw - 338px);
+	top: 50px;
+	width: calc(100vw - 238px);
 	border-radius: .5em 0 0 0;
 	overflow-y: auto;
 	animation: opacity .75s ease;
@@ -540,7 +540,7 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 .sidebar-2K8pFh .privateChannels-1nO12o header {
 	text-align: center;
 	font-size: 12px;
-	font-weight: 700;
+	font-weight: 400;
 	line-height: 16px;
 	text-transform: uppercase;
 	opacity: 1;
