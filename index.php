@@ -1,8 +1,7 @@
-
 <html>
 <head>
 <link rel="stylesheet" href="s.css">
-<title> Home </title>
+<title> Test - HstRh </title>
 </head>
 <script language="javascript">
 function check(form)
