@@ -22,7 +22,6 @@
 --Hide: "⚫";
 --ProfilePic: "H2tRh'aLRuqi";
 --Unread: "🔴";
---Options: "";
 --Emoji: "✌️";
 --EmojiHover: "🖕";
 --Channel: "💬";
@@ -135,7 +134,7 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 }
 
 .container-3Mxszk, .chat-3bRxxu, .peopleList-3c4jOR, .container-1D34oG {
-	border-radius: 5px 0 0 0;
+	border-radius: 5px 255 0 0;
 	background: var(--ChatBox) !important;
 }
 
@@ -165,7 +164,7 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 
 .userSettingsAccount-2eMFVR .cardPrimaryEditable-3KtE4g, .mentioned-xhSam7 {
 	background: var(--darkgrey5) !important;
-	margin: .5em;
+	margin: .1em;
 	border-radius: 0 .25em .25em 0 !important;
 }
 
