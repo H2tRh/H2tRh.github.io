@@ -1,6 +1,6 @@
 :root {
-  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 55px));
-  --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 20px));
+  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 40px));
+  --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 25px));
   --server-container: calc(var(--server-size) + 20px);
 }
 #app-mount .base-3dtUhz {
@@ -194,7 +194,7 @@
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .listItem-2P_4kh {
   width: var(--server-size);
   transform: rotate(90deg);
-  margin: var(--server-spacing) 10px;
+  margin: var(--server-spacing) 20px;
   position: unset;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .guildSeparator-3s64Iy {
