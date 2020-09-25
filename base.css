@@ -1,44 +1,45 @@
 :root {
-  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
-  --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 35px));
-  --server-container: calc(var(--server-size) + 25px);
+  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 40px));
+  --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 20px));
+  --server-container: calc(var(--server-size) + 30px);
 }
 #app-mount .base-3dtUhz {
   top: var(--server-container) !important;
   position: absolute !important;
-  left: 0 !important;
+  left: 7px !important;
 }
 #app-mount .sidebar-2K8pFh {
-  border-radius: 0;
+  border-radius: 15px;
 }
 #app-mount [class*=unreadMentionsIndicator] {
-  width: var(--server-size);
-  padding: 0;
-  left: 50%;
-  transform: translateX(-50%);
+width: 45%;
+  padding: 0%;
+  left: 40%;
+  transform: translateX(-55%);
   height: auto;
 }
+
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ {
   transform-origin: top left;
   transform: rotate(-90deg);
   height: 100vw !important;
-  width: var(--server-container);
-  top: var(--server-container);
+  width: 100px;
+  top: 65px;
   bottom: unset;
   position: absolute !important;
-  left: 0;
+  left: 1px;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scrollerWrap-1IAIlv {
-  width: calc(100% + 30px);
+  width: calc(90% + 10px);
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN {
-  padding-top: 0 !important;
+  padding-top: 0px !important;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN>div[style]:not(.listItem-2P_4kh) {
-  height: auto !important;
+  height: 30px !important;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN>div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
-  padding-top: 1px;
+  padding-top: 25px;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .svg-1X37T1,
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .wrapper-25eVIn,
@@ -52,18 +53,19 @@
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] {
   transform: rotate(90deg) translateY(-50%);
+  opacity: 0.6;
   height: var(--server-size);
   width: 4px;
-  top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
-  margin-left: -2px;
+  top: calc(var(--server-size) / -1.1 + var(--server-size) / 2 - 9px) !important;
+  margin-left: 0px;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span {
   height: 100% !important;
   width: 4px !important;
   transform: scale(0, 1) !important;
-  transition: 0.15s ease !important;
-  margin-left: 0;
-  border-radius: 0 4px 4px 0;
+  transition: 0.2s ease !important;
+  margin-left: 20%;
+  border-radius: 1 4px 4px 5;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 0"] {
   transform: scale(1, 0.24) !important;
@@ -194,8 +196,8 @@
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .listItem-2P_4kh {
   width: var(--server-size);
   transform: rotate(90deg);
-  margin: var(--server-spacing) 20px;
-  position: unset;
+  margin: var(--server-spacing) 15px !important;
+  position: unset
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .guildSeparator-3s64Iy {
   transform: rotate(90deg);
@@ -224,20 +226,20 @@
   transform: rotate(180deg);
   top: -5px;
   right: unset;
-  left: 13px;
+  left: 19px;
   z-index: 1;
 }
 #app-mount .friendsOnline-2JkivW {
   position: absolute;
-  transform: translate(-50%, 50%);
-  top: calc(-50% + var(--server-spacing));
-  left: calc(-50%);
+  transform: translate(90%, 00%);
+  top: calc(0% + var(--server-spacing));
+  left: calc(-55%);
   width: calc(var(--server-size) + var(--server-spacing));
   display: flex;
   justify-content: center;
 }
 #app-mount .guilds-1SWlCJ.content-Pph8t6 {
-  position: absolute !important;
+  position: 100% !important;
   top: calc(var(--server-container) * 2) !important;
 }
 #app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-)+.base-3dtUhz {
@@ -254,20 +256,20 @@
   height: 100% !important;
   border-radius: 50%;
   padding: 2px;
-  font-size: 10px;
+  font-size: 0px;
   box-sizing: border-box;
   text-align: center;
 }
 html.platform-osx #app-mount .typeMacOS-3EmCyP {
-  width: 100%;
+  width: 1%;
 }
 html.platform-osx #app-mount .base-3dtUhz {
-  top: calc(var(--server-container) + 30px) !important;
+  top: calc(var(--server-container) + 99px) !important;
 }
 html.platform-osx #app-mount #pluginNotice {
   top: 32px;
   z-index: 100000 !important;
 }
 body.foldercontentopened .base-3dtUhz {
-  transition: 0.2s ease !important;
+  transition: 0.9s ease !important;
 }
