@@ -1,7 +1,7 @@
 :root {
-  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 40px));
-  --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 25px));
-  --server-container: calc(var(--server-size) + 20px);
+  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
+  --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 35px));
+  --server-container: calc(var(--server-size) + 25px);
 }
 #app-mount .base-3dtUhz {
   top: var(--server-container) !important;
